@@ -9,6 +9,7 @@ import { WishListContext } from '../../WishContext'
 import Footer from '../Footer/Footer'
 import MainSlider from '../MainSlider/MainSlider'
 import Navbar from '../Navbar/Navbar'
+import Offerbanner from '../Offerbanner/Offerbanner'
 import ProductSale from '../ProductSale/PorductSale'
 import Subscribe from '../Subscribe/Subscribe'
 import Testimonial from '../Testimonial/Testimonial'
@@ -111,6 +112,8 @@ export default function Fake() {
   return <>
     <Navbar />
     <MainSlider />
+    <Offerbanner />
+
 
     <div className='Ttanding-products'>
       <div className='container'>
