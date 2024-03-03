@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
 
+
+
 export default function ProductSale() {
   const [days, setDays] = useState();
   const [hours, setHours] = useState();
@@ -11,7 +13,7 @@ export default function ProductSale() {
   const [seconds, setSeconds] = useState();
 
   const countDown = () => {
-    const selectedTime = new Date("Jan 25, 2024");
+    const selectedTime = new Date("Apr 30, 2024");
 
     const updateCountdown = () => {
       const now = new Date().getTime();
